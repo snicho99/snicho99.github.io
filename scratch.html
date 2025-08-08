@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .gallery-container {
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            gap: 4vw;
+        }
+
+        .image-container {
+            flex: 1;
+            aspect-ratio: 1;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            /* Temporary border to see the image placeholders */
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery-container">
+                <div class="image-container">
+            <a href="https://scratch.mit.edu/projects/1196311419/fullscreen/">
+                <img src="img/lavachicken upres.jpg" alt="Battle of the Rockinator">
+            </a>
+        </div>
+        <div class="image-container">
+            <a href="https://scratch.mit.edu/projects/1195536487/fullscreen/">
+                <img src="img/fantasycat.png" alt="Fantasy Cat">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
